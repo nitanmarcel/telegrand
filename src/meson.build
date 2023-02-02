@@ -72,5 +72,5 @@ test (
     'CARGO_HOME=@0@'.format(cargo_home),
     'PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm14/bin:/usr/lib/sdk/rust-stable/bin',
   ],
-  timeout: 300, # Give cargo more time
+  timeout: 0, # Give cargo more time
 )
